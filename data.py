@@ -1,32 +1,55 @@
-resources_availabel = {
-    "Water": 500,
-    "Milk" : 500,
-    "Coffee": 500,
-    "Money":0.0
+people = [
+    {"name": "Cristiano Ronaldo", "followers": 650, "profession": "Footballer", "country": "Portugal"},
+    {"name": "Lionel Messi", "followers": 510, "profession": "Footballer", "country": "Argentina"},
+    {"name": "Virat Kohli", "followers": 280, "profession": "Cricketer", "country": "India"},
+    {"name": "Taylor Swift", "followers": 310, "profession": "Singer", "country": "USA"},
+    {"name": "Selena Gomez", "followers": 420, "profession": "Singer", "country": "USA"},
+    {"name": "Dwayne Johnson", "followers": 395, "profession": "Actor", "country": "USA"},
+    {"name": "Ariana Grande", "followers": 380, "profession": "Singer", "country": "USA"},
+    {"name": "Kim Kardashian", "followers": 360, "profession": "Businesswoman", "country": "USA"},
+    {"name": "Kylie Jenner", "followers": 395, "profession": "Businesswoman", "country": "USA"},
+    {"name": "Zendaya", "followers": 185, "profession": "Actor", "country": "USA"},
+    {"name": "Shah Rukh Khan", "followers": 48, "profession": "Actor", "country": "India"},
+    {"name": "Deepika Padukone", "followers": 80, "profession": "Actor", "country": "India"},
+    {"name": "Alia Bhatt", "followers": 90, "profession": "Actor", "country": "India"},
+    {"name": "Priyanka Chopra", "followers": 92, "profession": "Actor", "country": "India"},
+    {"name": "Ranveer Singh", "followers": 47, "profession": "Actor", "country": "India"},
+    {"name": "MS Dhoni", "followers": 50, "profession": "Cricketer", "country": "India"},
+    {"name": "Rohit Sharma", "followers": 45, "profession": "Cricketer", "country": "India"},
+    {"name": "Jasprit Bumrah", "followers": 22, "profession": "Cricketer", "country": "India"},
+    {"name": "Steve Smith", "followers": 4, "profession": "Cricketer", "country": "Australia"},
+    {"name": "Pat Cummins", "followers": 3, "profession": "Cricketer", "country": "Australia"},
+    {"name": "Tom Holland", "followers": 67, "profession": "Actor", "country": "UK"},
+    {"name": "Emma Watson", "followers": 75, "profession": "Actor", "country": "UK"},
+    {"name": "Chris Hemsworth", "followers": 60, "profession": "Actor", "country": "Australia"},
+    {"name": "Robert Downey Jr.", "followers": 58, "profession": "Actor", "country": "USA"},
+    {"name": "Scarlett Johansson", "followers": 18, "profession": "Actor", "country": "USA"},
+    {"name": "Bill Gates", "followers": 12, "profession": "Entrepreneur", "country": "USA"},
+    {"name": "Elon Musk", "followers": 230, "profession": "Entrepreneur", "country": "USA"},
+    {"name": "Mark Zuckerberg", "followers": 15, "profession": "Entrepreneur", "country": "USA"},
+    {"name": "Sundar Pichai", "followers": 6, "profession": "CEO", "country": "India"},
+    {"name": "Satya Nadella", "followers": 5, "profession": "CEO", "country": "India"},
+    {"name": "Narendra Modi", "followers": 105, "profession": "Politician", "country": "India"},
+    {"name": "Joe Biden", "followers": 39, "profession": "Politician", "country": "USA"},
+    {"name": "Justin Bieber", "followers": 295, "profession": "Singer", "country": "Canada"},
+    {"name": "Ed Sheeran", "followers": 48, "profession": "Singer", "country": "UK"},
+    {"name": "Bruno Mars", "followers": 38, "profession": "Singer", "country": "USA"},
+    {"name": "BTS", "followers": 78, "profession": "Music Band", "country": "South Korea"},
+    {"name": "BLACKPINK", "followers": 58, "profession": "Music Band", "country": "South Korea"},
+    {"name": "MrBeast", "followers": 70, "profession": "YouTuber", "country": "USA"},
+    {"name": "PewDiePie", "followers": 21, "profession": "YouTuber", "country": "Sweden"},
+    {"name": "CarryMinati", "followers": 22, "profession": "YouTuber", "country": "India"},
+    {"name": "Bhuvan Bam", "followers": 20, "profession": "YouTuber", "country": "India"},
+    {"name": "Ashish Chanchlani", "followers": 18, "profession": "YouTuber", "country": "India"},
+    {"name": "Dhruv Rathee", "followers": 14, "profession": "YouTuber", "country": "India"},
+    {"name": "KSI", "followers": 13, "profession": "YouTuber", "country": "UK"},
+    {"name": "Logan Paul", "followers": 28, "profession": "YouTuber", "country": "USA"},
+    {"name": "Andrew Tate", "followers": 11, "profession": "Influencer", "country": "UK"},
+    {"name": "Andrew Garfield", "followers": 9, "profession": "Actor", "country": "USA"},
+    {"name": "Gal Gadot", "followers": 110, "profession": "Actor", "country": "Israel"},
+    {"name": "Keanu Reeves", "followers": 16, "profession": "Actor", "country": "Canada"},
+    {"name": "Novak Djokovic", "followers": 16, "profession": "Tennis Player", "country": "Serbia"}
+]
 
-}
-
-resources_required ={       
-            "Latte":{
-            "Water": 50,
-            "Milk" : 50,
-            "Coffee": 50,
-            "Money":1.25},
-
-    
-
-    "Espresso":{
-            "Water": 50,
-            "Milk" : 50,
-            "Coffee": 50,
-            "Money":1.00},
-         
-    
-    
-         "Cappuccino":{
-            "Water": 50,
-            "Milk" : 50,
-            "Coffee": 50,
-            "Money":2.00}
-    }
+print(len(people))
 
